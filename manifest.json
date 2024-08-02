@@ -1,0 +1,23 @@
+{
+    "name": "To-Do",
+    "version": "1.0",
+    "manifest_version": 3,
+    "description":"Extension to track to-do list items and links pertaining to those items",
+    "action":{
+        "default_popup": "popup/index.html"
+    },
+    
+    "permissions": [
+        "tabs",
+        "contextMenus",
+        "storage"
+    ],
+    "host_permissions":[
+        "<all_urls>"
+    ],
+    "background":{
+        "service_worker":"background.js",
+        "type":"module"
+    }
+
+}
