@@ -1,0 +1,48 @@
+
+body{
+    min-width: 357px;
+    min-height: 250px;
+    overflow-x:hidden;
+    padding-top: 0.5rem;
+    max-height:600px;
+    margin:0;
+    border: white 2rem solid;
+}
+
+.container{
+    max-width: 1350px;
+    display:flex;
+    flex-direction: column;
+    flex-wrap:wrap;
+    margin:0.5rem;
+}
+
+.tab-container{
+    max-width:1300px;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 0.25rem;
+    border: gray 0.2 solid;
+    gap: 0.5rem;
+}
+.tab-fav{
+    height: 16px;
+    width: 16px;
+}
+/*text*/
+.title{
+    font-size: 24px;
+    font-weight:600;
+    font-style: italic;
+}
+@media screen and (max-width:1400px){
+    .container{
+        max-width: 1150px;
+    }
+}
+@media screen and (max-width:1200){
+    .container{
+        max-width: 960;
+    }
+}
